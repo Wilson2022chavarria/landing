@@ -1,0 +1,188 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.banner {
+    color: #334755;
+    text-align: center;
+    padding: 100px;
+}
+
+/* Estilos para el texto en el banner */
+.banner h1 {
+    font-size: 36px;
+}
+
+.banner p {
+    font-size: 18px;
+}
+body{
+    height: 100vh;
+}
+.inicio{
+    height: 100%;
+}
+
+.inicio .fondo-img{
+    background: url(img/inicio1.png);
+    background-size: cover;
+    background-position: bottom;
+    position: absolute;
+    top: 0;
+    height: 110%;
+    width: 100%;
+    z-index: 5;
+}
+.inicio .contenido-seccion{
+    max-width: 1200px;
+    margin: auto;
+}
+.inicio .contenido-seccion header{
+    padding: 50px 20px;
+    z-index: 100;
+    position: relative;
+
+}
+.inicio .contenido-seccion header nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Londrina Solid';
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    width: 100%;
+    padding: 20px 0;
+    background-color: #493854;
+}
+.inicio .contenido-seccion header nav a{
+    text-decoration: none;
+    color: #d9dfe2;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.inicio .contenido-seccion header nav a i{
+    font-size: 30px;
+}
+.titulo{
+    font-family: 'Finger Paint';
+    text-align: center;
+    font-size: 11rem;
+    color: #d9dfe2;
+    position: relative;
+}
+/* SECCION TOURS */
+.tours{
+    text-align: center;
+    max-width: 1100px;
+    margin: auto;
+    background: #fff;
+    z-index: 100;
+}
+h2{
+    color: #334755;
+    font-size: 20px;
+    font-family: 'Londrina Solid';
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+.tours > p{
+    color: #666;
+    line-height: 35px;
+    font-size: 20px;
+}
+.tours .fila{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+.tours .fila .col{
+    width: 30%;
+
+}
+.tours .fila i{
+    font-size: 35px;
+    color: #334755;
+    display: inline-block;
+
+}
+.tours .fila p{
+    color: #666;
+    font-size: 18px;
+    margin-top: 15px;
+    line-height: 25px;
+}
+
+/* SECCION COLECCION */
+.coleccion{
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    
+}
+.coleccion .fila{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    
+}
+.coleccion .fila img{
+    max-height: 120px;
+    max-width: 100%;
+}
+.coleccion .fila .col{
+    margin: 0 30px;
+    border: 2px solid #334755;
+    max-width: 200px;
+    width: 100%;
+    text-align: center;
+    border-radius: 15px;
+}
+.coleccion .fila .col .nombre{
+    color: #334755;
+    text-transform: uppercase;
+    font-size: 15px;
+    margin: 20px 0;
+}
+.coleccion .fila .col h3{
+    border: 2px solid #334755;
+    width: fit-content;
+    margin: 20px auto;
+    padding: 5px 15px;
+}
+
+/* SECCION SUBSCRIBASE */
+.subscribase{
+    text-align: center;
+    padding: 60px 0;
+}
+.subscribase input{
+    display: inline-block;
+    margin-top: 20px;
+    width: 400px;
+    font-size: 20px;
+    padding: 10px;
+    border: 1px solid #334755;
+    text-align: center;
+}
+/* SECCION ES AHORA */
+.esahora{
+    background: url(img/esahora.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+.esahora .redes{
+    text-align: center;
+}
+.esahora .redes a{
+    text-decoration: none;
+    font-size: 40px;
+    display: inline-block;
+    margin: 0 30px;
+    color: #18385c;
+}
+.esahora .color{
+    color: #18385c;
+}

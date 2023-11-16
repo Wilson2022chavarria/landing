@@ -1,0 +1,38 @@
+{
+  "servicios":[
+    {
+      "titulo": "Aventura en la Naturaleza",
+      "descripcion": "Explora paisajes impresionantes, desafía tus límites y conecta con la naturaleza en nuestras emocionantes expediciones de aventura. Nuestros experimentados guías te llevarán a los lugares más asombrosos.",
+      "icono": "fa-regular fa-map"
+    },
+    {
+      "titulo": "Guiados profesionales",
+      "descripcion": "Nuestros guías expertos te acompañarán en cada paso de tu viaje, compartiendo su conocimiento y pasión por la naturaleza. Disfruta de una experiencia segura y enriquecedora con nosotros.",
+      "icono": "fa-regular fa-compass"
+    },
+    {
+      "titulo": "Experiencia en Camping",
+      "descripcion": "Vive la emoción de acampar en la naturaleza. Proporcionamos equipo de alta calidad y opciones de alojamiento al aire libre para que tu experiencia de camping sea cómoda y memorable.",
+      "icono": "fa-solid fa-fire"
+    }
+  ],
+  "productos":[
+    {
+      "nombre": "Silla de Camping",
+      "imagen": "https://m.media-amazon.com/images/I/51Z-TebqKAL._AC_SX569_.jpg",
+      "precio": 99.99
+    },
+    {
+      "nombre": "Short Camuflage",
+      "imagen": "https://m.media-amazon.com/images/I/61rMYe09yML._AC_SX679_.jpg",
+      "precio": 59.99
+    },
+    {
+      "nombre": "Carpa",
+      "imagen": "img/https://m.media-amazon.com/images/I/71wxEg6ubCL.__AC_SX300_SY300_QL70_FMwebp_.jpg",
+      "precio": 159.99
+    }
+    
+
+  ]
+}
